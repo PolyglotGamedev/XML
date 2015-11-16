@@ -17,12 +17,12 @@ Version has a "-" (minus) in front, and all languages are separated by "_" (unde
 # INTERNAL XML STRUCTURE
 Every XML language file has the following structure:
 
-<?xml version="1.0" encoding="UTF-8"?>
-<resources>
-   <polyglot LANG=$langstring DIRECTION=$direction VERSION=$version DATE=$date />
-   <s n=$idString>$translation</s>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;resources&gt;
+   &lt;polyglot LANG=$langstring DIRECTION=$direction VERSION=$version DATE=$date /&gt;
+   &lt;s n=$idString&gt;$translation&lt;/s&gt;
    ...
-</resources>
+&lt;/resources&gt;
 
 Explanation:
 - XML 1.0 UTF-8 header
